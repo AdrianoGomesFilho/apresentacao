@@ -5,11 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor0: #DCD7C9;
-    --cor1: #A27B5C;
-    --cor2: #A27B5C;
-    --cor3: #2C3639;
-    --cor-hover: #3F4E4F;
+    --cor0: #ffffff;
+    --cor1: #fca311;
+    --cor2: #161616;
+    --cor-hover: #14213d;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -23,7 +22,7 @@
 body {
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     color: var(--cor0);
 }
 
@@ -44,11 +43,17 @@ body {
     text-decoration: none;
 }
 
+.projetos__iframe {
+    width: 400px;
+}
+
 .apresentacao {
     padding: 8% 15%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 100px;
 }
 
 .apresentacao__conteudo {
@@ -74,6 +79,15 @@ body {
 }
 
 .apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__projetos{
+    background-color: #14213d9d;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -107,12 +121,13 @@ body {
 
 .apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
-    box-shadow: inset 0px 0px 10px 0px rgb(0 255 255 / 53%);
+    box-shadow: inset 0px 0px 10px 0px var(--cor1);
     transition: .2s;
 }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 30%;
+    border-radius: 50%;
 }
 
 .rodape {
