@@ -27,20 +27,12 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0 0 15%;
-}
-
-.cabecalho__menu {
-    display: flex;
-    gap: 80px;
-}
-
-.cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
-    
+    font-size: 2rem;
     color: var(--cor1);
     text-decoration: none;
+    text-align: center;
+    padding: 2%;
 }
 
 .projetos__iframe {
@@ -171,7 +163,6 @@ body {
     }
 
     .apresentacao {
-        flex-direction: column-reverse;
         padding: 5%;
     }
 
