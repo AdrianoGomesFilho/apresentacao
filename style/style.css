@@ -57,6 +57,11 @@ body {
 
 .descricao__projeto {
     font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.instrutor {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .apresentacao__conteudo {
